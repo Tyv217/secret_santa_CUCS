@@ -65,11 +65,8 @@ def main():
     random.shuffle(names)
     offset = random.randint(1,int((len(names) - 1)/5))
     santas = {}
-    print(names)
-    print(offset)
     for x in range(len(names)):
         santas[names[x]] = names[(x + offset) % len(names)]
-    print(santas)
     write_back(santas,names_to_emails)
     send_email(santas,names_to_emails)
 
