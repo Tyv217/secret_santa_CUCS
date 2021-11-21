@@ -1,4 +1,3 @@
-from email.message import EmailMessage
 import random
 import random
 import smtplib
