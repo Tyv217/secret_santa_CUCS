@@ -1,9 +1,7 @@
 from email.message import EmailMessage
 import random
-import copy
 import random
 import smtplib
-import imghdr
 from email import encoders
 import smtplib, ssl
 from email import encoders
